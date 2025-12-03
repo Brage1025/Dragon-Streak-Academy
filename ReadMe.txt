@@ -27,7 +27,9 @@ COPYRIGHT & INTELLECTUAL PROPERTY NOTICE
    This platform references and utilizes content related to the following 
    third-party intellectual properties, each of which remains the exclusive 
    property of their respective copyright holders:
+   
    GAME INTELLECTUAL PROPERTY:
+
    A. THE FINALS
       © Embark Studios AB. All rights reserved.
       THE FINALS is a trademark of Embark Studios AB.
