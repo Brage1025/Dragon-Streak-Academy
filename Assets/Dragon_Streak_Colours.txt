@@ -1,0 +1,41 @@
+Main Logo colours:
+
+Assassin’s Red: #f60f18
+&
+Black: #000000
+
+
+Other Colors:
+Academy White: #ffffff
+Black Metal (Background): #060708
+Borderline Black (course-cards): #121314
+Chinese Black (button borders): #111214
+Memory Lane (hover): #c6d3dd
+American Silver (footer text): #CBCED0
+Scarlet Splendour (red text gradient) (btn-hover): #ca0f19
+Tuatara(nav-hover): #383939
+Cloak Grey(nav-gad): #5e5f64
+Horror Snob (teachers): #da4e51
+Bloody Mary (book-grad): #ba070e
+Supremely Cool (some dates): #b0bece
+
+
+Support colours for gradients:
+
+Memory Lane: #c6d3dd
+Made in the Shade: #6e6f75
+Dwarf Fortress: #220000
+Lonely Chocolate: #500001
+Secret Scarlet: #7c0f16
+Sailor Boy: #b0bdce
+Stoplight: #dc1018
+Knight’s Armor: #5a5a60
+Little Ladybug: #fe121c
+Ecstatic Red: #a6151c
+Cloak Grey: #5d5b63
+Miyamoto Red: #e40f18
+Opera: #7d666b
+Intrigue Red: #b04347
+Ethereal Mist: #afb9cb
+Savory Salmon: #ce9ba3
+First Love: #c8767f

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/Dragon_Streak_Logo-Icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booking</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <div class="nav-left">
+          <!-- LOGO IMAGE -->
+          <a href="./index.html" class="logo">
+            <img
+              src="./Assets/Dragon_Streak_Academy_Logo.png"
+              alt="Site Logo"
+            />
+          </a>
+
+          <a href="./courses.html" class="nav-btn">Courses</a>
+          <a href="./partners.html" class="nav-btn">Partners</a>
+          <a href="./booking.html" class="nav-btn">Booking</a>
+          <a href="./feedback.html" class="nav-btn">Feedback</a>
+          <a href="./gallery.html" class="nav-btn">Gallery</a>
+        </div>
+
+        <div class="nav-right">
+          <a href="./errorSite.html" class="login-btn">Log In</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="content">
+      <section class="booking-hero">
+        <h1>Book Your Course</h1>
+        <p>Choose your course and select a date to get started</p>
+      </section>
+
+      <section class="booking-form-section">
+        <div class="container">
+          <form class="booking-form" id="bookingForm">
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                id="full-name"
+                name="fullName"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="course-select">Choose Your Course</label>
+              <select id="course-select" name="course" required>
+                <option value="">Select a course...</option>
+                <option value="momentum-mayhem">
+                  Momentum & Mayhem (THE FINALS) - $199
+                </option>
+                <option value="master-your-grind">
+                  Master Your Grind (RuneScape) - $99
+                </option>
+                <option value="control-the-sandbox">
+                  Control the Sandbox (Halo) - $249
+                </option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="session-date">Preferred Session Date & Time</label>
+              <input
+                type="datetime-local"
+                id="session-date"
+                name="sessionDate"
+                required
+              />
+            </div>
+
+            <button type="submit" class="submit-button">Book Now</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img
+              src="./Assets/Dragon_Streak_Academy_Logo.png"
+              alt="Footer Logo"
+            />
+          </div>
+
+          <div class="footer-columns">
+            <div class="column">
+              <p class="column-title">About</p>
+              <a href="./errorSite.html">Our vision</a>
+              <a href="./courses.html">Courses</a>
+              <a href="./errorSite.html">Brand</a>
+              <a href="./errorSite.html">Contact Us</a>
+            </div>
+
+            <div class="column">
+              <p class="column-title">For users</p>
+              <a href="./errorSite.html">Site Guide</a>
+              <a href="./errorSite.html">Recourses</a>
+            </div>
+
+            <div class="column">
+              <p class="column-title">Terms and Policies</p>
+              <a href="./errorSite.html">All Terms and Policies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ICONS NOW DIRECTLY ABOVE COPYRIGHT, RIGHT SIDE -->
+      <div class="footer-icons">
+        <a href="./errorSite.html" class="icon"
+          ><img
+            src="./Assets/Socials Icon/yt_icon_white_digital.png"
+            alt="YouTube"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img src="./Assets/Socials Icon/twlitch_flat_white.png" alt="Twitch"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img src="./Assets/Socials Icon/X-logo-white.png" alt="X"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img
+            src="./Assets/Socials Icon/insta.symbol-white.png"
+            alt="Instagram"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img
+            src="./Assets/Socials Icon/Discord-Symbol-White.png"
+            alt="Discord"
+        /></a>
+        <a href="https://github.com/Brage1025" class="icon"
+          ><img src="./Assets/Socials Icon/github-mark-white.png" alt="GitHub"
+        /></a>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025, Dragon Streak Academy, All rights reserved
+      </div>
+      <script src="booking.js"></script>
+    </footer>
+  </body>
+</html>

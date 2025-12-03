@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/Dragon_Streak_Logo-Icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Feedback</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar">
+        <div class="nav-left">
+          <!-- LOGO IMAGE -->
+          <a href="./index.html" class="logo">
+            <img
+              src="./Assets/Dragon_Streak_Academy_Logo.png"
+              alt="Site Logo"
+            />
+          </a>
+
+          <a href="./courses.html" class="nav-btn">Courses</a>
+          <a href="./partners.html" class="nav-btn">Partners</a>
+          <a href="./booking.html" class="nav-btn">Booking</a>
+          <a href="./feedback.html" class="nav-btn">Feedback</a>
+          <a href="./gallery.html" class="nav-btn">Gallery</a>
+        </div>
+
+        <div class="nav-right">
+          <a href="./errorSite.html" class="login-btn">Log In</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="feedback-hero">
+        <h1>Share Your Experience</h1>
+        <p>Your feedback helps us improve and helps other gamers make informed decisions</p>
+      </section>
+
+      <!-- Feedback Form Section -->
+      <section class="feedback-form-section">
+        <div class="container">
+          <h2>Submit Your Feedback</h2>
+          <form class="feedback-form" id="feedbackForm">
+            <div class="form-group">
+              <label for="student-name">Your Name</label>
+              <input type="text" id="student-name" placeholder="Enter your name" name="studentName" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="course-select">Course Taken</label>
+              <select id="course-select" name="course" required>
+                <option value="">Select a course...</option>
+                <option value="momentum-mayhem">Momentum & Mayhem (THE FINALS)</option>
+                <option value="master-your-grind">Master Your Grind (RuneScape)</option>
+                <option value="control-the-sandbox">Control the Sandbox (Halo)</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="rating">Rating</label>
+              <div class="rating-stars">
+                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">★</label>
+                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">★</label>
+                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">★</label>
+                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">★</label>
+                <input type="radio" id="star1" name="rating" value="1">
+                <label for="star1">★</label>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="experience">Your Experience</label>
+              <textarea id="experience" name="experience" rows="5" placeholder="Tell us about your experience with the course..." required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Submit Feedback</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Customer Reviews Section -->
+      <section class="reviews-section">
+        <div class="container">
+          <h2>What Our Students Say</h2>
+          <div class="reviews-grid">
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="reviewer-name">Courtney "D3metra" Jinez</h3>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <div class="review-course">
+                <strong>Course:</strong> Momentum & Mayhem
+              </div>
+              <div class="review-content">
+                <p>I was stuck in Diamond for months before taking this course. TheFluffyBuns completely transformed my approach to Light class. The emphasis on momentum and controlled aggression was a game-changer. I've since climbed to Champion rank and feel like I truly understand the flow of the game now.</p>
+              </div>
+              <div class="review-date">Posted: March 15, 2025</div>
+            </article>
+            
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="reviewer-name">Sofia G. "Miss5of1eLu5t" Henderson</h3>
+                <div class="review-rating">★★★★☆</div>
+              </div>
+              <div class="review-course">
+                <strong>Course:</strong> Master Your Grind
+              </div>
+              
+              <div class="review-content">
+                <p>SirionBloomoon's systematic approach to goal-setting has revolutionized how I play not just RuneScape, but all games. I went from aimlessly grinding to efficiently working toward maxing my account. The framework is applicable to any long-term gaming goal. My only wish is that the next more advanced modules is done soon!</p>
+              </div>
+              <div class="review-date">Posted: February 28, 2025</div>
+            </article>
+            
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="reviewer-name">Marcus "Spartan404" Rodriguez</h3>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <div class="review-course">
+                <strong>Course:</strong> Control the Sandbox
+              </div>
+              
+              <div class="review-content">
+                <p>TweakyOliver's understanding of Halo's sandbox is incredible. I thought I knew the game well after years of playing, but his insights into spawn control and map flow were eye-opening. The way he breaks down engagements and teaches you to control the battlefield is next-level. I've seen a significant improvement in my competitive performance.</p>
+              </div>
+              <div class="review-date">Posted: February 10, 2025</div>
+            </article>
+            
+            <article class="review-card">
+              <div class="review-header">
+                <h3 class="reviewer-name">Anne M. "GiliosGranger" Stow</h3>
+                <div class="review-rating">★★★★★</div>
+              </div>
+              <div class="review-course">
+                <strong>Course:</strong> Momentum & Mayhem
+              </div>
+              
+              <div class="review-content">
+                <p>TheFluffyBuns doesn't just teach mechanics - he teaches mindset. Learning when to apply pressure and how to create chaos on demand has made me a much more valuable teammate. My K/D has improved, but more importantly, my win rate has skyrocketed. Worth every penny!</p>
+              </div>
+              <div class="review-date">Posted: December 22, 2025</div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img
+              src="./Assets/Dragon_Streak_Academy_Logo.png"
+              alt="Footer Logo"
+            />
+          </div>
+
+          <div class="footer-columns">
+            <div class="column">
+              <p class="column-title">About</p>
+              <a href="./errorSite.html">Our vision</a>
+              <a href="./courses.html">Courses</a>
+              <a href="./errorSite.html">Brand</a>
+              <a href="./errorSite.html">Contact Us</a>
+            </div>
+
+            <div class="column">
+              <p class="column-title">For users</p>
+              <a href="./errorSite.html">Site Guide</a>
+              <a href="./errorSite.html">Recourses</a>
+            </div>
+
+            <div class="column">
+              <p class="column-title">Terms and Policies</p>
+              <a href="./errorSite.html">All Terms and Policies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ICONS NOW DIRECTLY ABOVE COPYRIGHT, RIGHT SIDE -->
+      <div class="footer-icons">
+        <a href="./errorSite.html" class="icon"
+          ><img
+            src="./Assets/Socials Icon/yt_icon_white_digital.png"
+            alt="YouTube"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img src="./Assets/Socials Icon/twlitch_flat_white.png" alt="Twitch"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img src="./Assets/Socials Icon/X-logo-white.png" alt="X"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img
+            src="./Assets/Socials Icon/insta.symbol-white.png"
+            alt="Instagram"
+        /></a>
+        <a href="./errorSite.html" class="icon"
+          ><img
+            src="./Assets/Socials Icon/Discord-Symbol-White.png"
+            alt="Discord"
+        /></a>
+        <a href="https://github.com/Brage1025" class="icon"
+          ><img src="./Assets/Socials Icon/github-mark-white.png" alt="GitHub"
+        /></a>
+      </div>
+
+      <div class="footer-bottom">
+        © 2025, Dragon Streak Academy, All rights reserved
+      </div>
+    </footer>
+  </body>
+</html>
