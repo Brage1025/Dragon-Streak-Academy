@@ -1,7 +1,7 @@
-====================================================================================
+=====================================================================================
                                 DRAGON STREAK ACADEMY
                             README & PARODY LEGAL NOTICE
-====================================================================================
+=====================================================================================
 
 PROJECT OVERVIEW
 Dragon Streak Academy is a digital training platform offering professional 
@@ -122,6 +122,12 @@ stuck. Ended up capitulating, just defining the divs, working though the problem
 then moving on (Due to the due date). The Parter site etc would neve been created if
 not for the extended due date.
 
+I should also have made a "McNavbar" Hamburger Menu. But again, didin't have time and
+also have never made one.
+
+Tnx to Mac for helping me troubleshoot the mobile version of the page, and all around
+being supportve.
+
 Give me feedback please. Only way for me to learn. And I dislike Figma.. Thought you
 should know.
 
@@ -130,6 +136,6 @@ REVISION HISTORY
 -------------------------------------------------------------------------------------
 Version 1.0 - Initial Release - December 2025
 
-====================================================================================
+=====================================================================================
 END OF DOCUMENT
-====================================================================================
+=====================================================================================

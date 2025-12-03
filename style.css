@@ -24,6 +24,12 @@ header {
   align-items: center;
 }
 
+main.content {
+  position: relative;
+  z-index: 1;
+  margin-top: 60px !important;
+}
+
 .nav-left {
   display: flex;
   gap: 10px;
@@ -1265,6 +1271,221 @@ header {
   @keyframes scroll-partners {
     100% {
       transform: translateX(calc(-100px * 6 - 2rem * 6));
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* Trying to fix course cards on mobile */
+    .course-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .course-card {
+      margin: 0 auto;
+      max-width: 350px;
+    }
+
+    .course-content {
+      padding: 1.25rem;
+    }
+
+    .course-title {
+      font-size: 1.3rem;
+    }
+
+    .course-description {
+      font-size: 0.95rem;
+    }
+
+    /* Tried to fix the navbar on mobile */
+    .navbar {
+      flex-wrap: wrap;
+    }
+
+    .nav-left {
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .nav-btn,
+    .login-btn {
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+
+    /* Adjusted the hero section on mobile */
+    .hero {
+      padding: 1rem;
+      min-height: auto;
+    }
+
+    .hero-text {
+      padding: 0;
+    }
+
+    .into-welcome {
+      font-size: 2rem;
+    }
+
+    .intro-lead {
+      font-size: 1.1rem;
+    }
+
+    .intro-body {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    /* Should fix for very small screens */
+    .course-card {
+      max-width: 100%;
+    }
+
+    .course-content {
+      padding: 1rem;
+    }
+
+    .navbar {
+      padding: 8px 10px;
+    }
+
+    .nav-left {
+      gap: 5px;
+    }
+
+    .nav-btn,
+    .login-btn {
+      padding: 5px 10px;
+      font-size: 0.85rem;
+    }
+
+    .logo img {
+      height: 35px;
+    }
+  }
+
+  @media (max-width: 992px) {
+    .course-listing-item {
+      flex-direction: column !important;
+      gap: 2rem !important;
+      padding: 1.5rem !important;
+    }
+
+    .course-sidebar {
+      width: 100% !important;
+      order: -1; /* Hopefully moves the sidebar to top on mobile */
+    }
+
+    .course-image {
+      margin: 0 auto;
+      max-width: 500px;
+    }
+
+    .course-img {
+      height: 200px;
+      width: 100%;
+    }
+
+    .course-pricing {
+      margin-top: 1.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .course-listing-item {
+      padding: 1.25rem !important;
+    }
+
+    .courses-listing {
+      padding: 1rem !important;
+      gap: 2rem !important;
+    }
+
+    .course-content {
+      padding: 0 !important;
+    }
+
+    .course-title {
+      font-size: 1.5rem !important;
+    }
+
+    .course-teacher {
+      font-size: 1rem !important;
+    }
+
+    .course-description p {
+      font-size: 0.95rem !important;
+      line-height: 1.5 !important;
+    }
+
+    /* Fixed(?) the navbar on mobile */
+    .navbar {
+      padding: 10px 15px !important;
+    }
+
+    .nav-left {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .nav-btn {
+      padding: 6px 10px;
+      font-size: 0.85rem;
+    }
+
+    .login-btn {
+      padding: 6px 12px;
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .course-listing-item {
+      padding: 1rem !important;
+      gap: 1.5rem !important;
+    }
+
+    .course-img {
+      height: 180px;
+    }
+
+    .course-title {
+      font-size: 1.3rem !important;
+    }
+
+    .course-price {
+      font-size: 1.1rem !important;
+    }
+
+    .booking-button {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    /* Hot fix for small screen navbar */
+    .nav-left {
+      gap: 5px;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .nav-btn {
+      padding: 5px 8px;
+      font-size: 0.8rem;
+    }
+
+    .login-btn {
+      padding: 5px 10px;
+      font-size: 0.8rem;
     }
   }
 }
